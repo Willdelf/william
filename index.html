@@ -71,7 +71,7 @@
                 </div>
 
                 <div class="home__img">
-                    <img src="assets/img/building.jpg" alt="header photo">
+                    <img src="assets/img/building-architecture-black-and-white-preview.jpg" alt="header photo">
                 </div>
             </div>
         </section>
@@ -443,16 +443,23 @@
 
                 <form action="" class="contact__form">
                     <div class="contact__inputs">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="email" placeholder="Email" class="contact__input">
+                        <label for="name" class="contact__label">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Name" class="contact__input" required>
+                        
+                        <label for="email" class="contact__label">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email" class="contact__input" required>
                     </div>
 
                     <div class="contact__inputs">
-                        <input type="text" placeholder="Project" class="contact__input">
-                        <input type="number" placeholder="Number" class="contact__input">
+                        <label for="project" class="contact__label">Project</label>
+                        <input type="text" id="project" name="project" placeholder="Project" class="contact__input" required>
+                        
+                        <label for="number" class="contact__label">Number</label>
+                        <input type="number" id="number" name="number" placeholder="Number" class="contact__input" required>
                     </div>
 
-                    <textarea name="" id="" cols="0" rows="7" placeholder="Message" class="contact__input"></textarea>
+                    <label for="message" class="contact__label">Message</label>
+                    <textarea id="message" name="message" cols="0" rows="7" placeholder="Message" class="contact__input" required></textarea>
 
                     <input type="submit" value="Send Message" class="button contact__button">
                 </form>

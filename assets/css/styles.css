@@ -476,6 +476,20 @@ img{
   margin-bottom: var(--mb-4);
 }
 
+/* Project Section */
+.project__title,
+.project__description {
+  margin-bottom: 0;
+}
+
+.project__icon {
+  font-size: 6rem;
+}
+
+.project__title {
+  font-size: 2.5rem;
+}
+
 /*===== PORTFOLIO =====*/
 .portfolio__nav{
   text-align: center;
