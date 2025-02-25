@@ -6,10 +6,10 @@
   --header-height: 3rem;
 
   /*===== Colors =====*/
-  --first-color: #E0A816;
-  --first-color-dark: #B5891B;
+  --first-color: #0637b1;
+  --first-color-dark: #06287e;
   --text-color: #665D47;
-  --first-color-light: #EDCE00;
+  --first-color-light: #0043ed;
   --first-color-lighten: #f1fcff;
   --first-color-soft: #665529;
 
@@ -637,6 +637,7 @@ img{
   padding: 1rem;
   border: 2px solid var(--first-color-light);
   margin-bottom: var(--mb-1);
+  border-radius: .2rem;
 }
 
 .contact::placeholder{
@@ -688,7 +689,7 @@ img{
 
 .footer__copy{
   font-size: var(--smaller-font-size);
-  color: var(--first-color-light);
+  color: var(--first-color-lighten);
 }
 
 /*===== MEDIA QUERIES =====*/
